@@ -13,7 +13,7 @@ code {
 }
 .style {
   background-color:black;
-  color:white;
+  color:black;
   padding:30px;
   display:flex;
   flex-direction:column;
@@ -24,8 +24,13 @@ code {
 }
 .img-container {
   text-align: center;
-  display: block;
-  background-color: aqua;
+  display:inline-block;
+  background-color:rgb(30, 255, 41);
+}
+img {
+  width: 800;
+  height: 500;
+
 }
 
 .flex-container {
@@ -36,7 +41,7 @@ code {
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
+  background-color: #1d12c2;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
