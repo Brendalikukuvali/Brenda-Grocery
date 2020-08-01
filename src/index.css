@@ -25,6 +25,7 @@ code {
 .img-container {
   text-align: center;
   display: block;
+  background-color: aqua;
 }
 
 .flex-container {
