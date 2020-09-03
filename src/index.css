@@ -1,48 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-.style {
-  background-color:black;
-  color:black;
-  padding:30px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-}
-.style {
-  background-color:pink;
-}
-.img-container {
+.cont{
+  font-family:'',sans-serif;
+  min-height:px;
   text-align: center;
-  display:inline-block;
-  background-color:rgb(30, 255, 41);
+  color:white;
+  padding-top: 50px;
+  background-color:#14c404;
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-top: 50px;
+  font-size: 70px;
+  padding-bottom: 50px;
+  
 }
-img {
-  width: 800;
-  height: 500;
+
+.conta {
+  font-family:'',sans-serif;
+  text-align: center;
+  color:green;
+  font-size: 50px;
+  scroll-padding-bottom: 100px;
 
 }
 
-.flex-container {
-  display: fle;
-  background-color: DodgerBlue;
-  width: 100px;
-  height: 200px;
-}
+.flex{
+  font-family:'',sans-serif;
+  min-height:100px;
+  color: black;
+  display:flex;
+  flex-wrap:wrap;
+  padding:3%;
+  margin-top:auto;
+  flex: 1 20%;
 
-.flex-container > div {
-  background-color: #1d12c2;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
+  
+ padding-top: 100px;
+  background-repeat: no-repeat;
+  
+}
+ 
+ 
+
+.veges{
+ display: flex;
+ text-align: left;
+ display: inline;
+ bottom: 60px;
+ margin:auto;
+ 
+ 
 }
